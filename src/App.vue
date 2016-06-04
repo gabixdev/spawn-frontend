@@ -20,7 +20,7 @@
       <main>
           <div class="row">
               <div class="">
-                  <div id="left-menu" class="col-xs-12 col-sm-2 background-dark">
+                  <div id="left-menu" class="col-xs-12 background-dark">
                       <div class="containerz">
                           <h1 class="text-big text-center">LVL UP</h1>
                           <p class="text-center">
@@ -52,7 +52,7 @@
                           </ul>
                       </div>
                   </div>
-                  <div id="right-content" class="col-xs-12 col-sm-10">
+                  <div id="right-content" class="col-xs-12">
                       <div class="container">
                           <router-view></router-view>
                       </div>
@@ -78,12 +78,27 @@ import "src/skins/Graphite.vue"
 
 /* Custom style end */
 
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    #left-menu {
+        width: 100%;
+    }
+    
+    #right-content {
+        width: 100%;
+    }
+}
 
 @media(min-width:768px) {
     #left-menu {
         height: 100vh;
         padding-left: 30px;
+        width: 250px;
+        float: left;
+    }
+    
+    #right-content {
+        width: calc(100% - 250px);
+        float: left;
     }
 }
 
