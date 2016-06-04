@@ -43,7 +43,7 @@
                                   <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-fw fa-money"></i> Płatności</a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
+                                  <a v-link="'access'" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
                               </li>
                               <li class="paginator-list-item">
                                   <a v-link="'help'" class="paginator-list-link"><i class="fa fa-fw fa-life-ring"></i> Pomoc</a>

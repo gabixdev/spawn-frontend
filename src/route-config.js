@@ -11,6 +11,9 @@ export function configRouter (router) {
     '/payments': {
       component: require('./components/Payments.vue')
     },
+    '/access': {
+      component: require('./components/Access.vue')
+    },
     '/help': {
       component: require('./components/Help.vue')
     },
