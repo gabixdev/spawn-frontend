@@ -1,6 +1,6 @@
 {
   "name": "spawn-frontend",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Customer panel for lvlup.pro",
   "author": "Michał Frąckiewicz <hello@systemz.pl>",
   "private": true,
