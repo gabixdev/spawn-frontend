@@ -16,6 +16,7 @@
   </head>
 
   <body>
+    <div style="margin-bottom:0px" class="message-bar background-info"><p>Uwaga, jest to tylko projekt wyglądu panelu klienta lvlup.pro 3.0, nie jest jeszcze funkcjonalny. Zapraszam do dyskusji na <a style="color:white" href="https://forum.lvlup.pro/t/projekt-nowego-panelu-klienta-v3-0/541" target="blank"><strong>forum</strong></a></p></div>
       <main>
           <div class="row">
               <div class="">
@@ -34,7 +35,7 @@
                                   <a v-link="'/'" class="paginator-list-link"><i class="fa fa-fw fa-newspaper-o"></i> Nowości </a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-shopping-cart"></i> Zamów </a>
+                                  <a v-link="'order'" class="paginator-list-link"><i class="fa fa-fw fa-shopping-cart"></i> Zamów </a>
                               </li>
                               <li class="paginator-list-item">
                                   <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-fw fa-bars"></i> Usługi </a>

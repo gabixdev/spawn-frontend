@@ -5,6 +5,9 @@ export function configRouter (router) {
     '/': {
       component: require('./components/News.vue')
     },
+    '/order': {
+      component: require('./components/Order.vue')
+    },
     '/services': {
       component: require('./components/Services.vue')
     },

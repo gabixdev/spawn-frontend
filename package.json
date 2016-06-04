@@ -1,6 +1,6 @@
 {
   "name": "spawn-frontend",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Customer panel for lvlup.pro",
   "author": "Michał Frąckiewicz <hello@systemz.pl>",
   "private": true,
@@ -63,6 +63,7 @@
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
-    "webpack-merge": "^0.8.3"
+    "webpack-merge": "^0.8.3",
+    "nouislider": "git+https://github.com/leongersen/noUiSlider.git#dc6a43e67926e239732f00515c8c2e4f27b1062c"
   }
 }
