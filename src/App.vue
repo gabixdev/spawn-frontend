@@ -46,12 +46,12 @@
                                   <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-life-ring"></i> Pomoc</a>
+                                  <a v-link="'help'" class="paginator-list-link"><i class="fa fa-fw fa-life-ring"></i> Pomoc</a>
                               </li>
                           </ul>
                       </div>
                   </div>
-                  <div class="col-xs-12 col-sm-10">
+                  <div id="right-content" class="col-xs-12 col-sm-10">
                       <div class="container">
                           <router-view></router-view>
                       </div>
@@ -64,7 +64,19 @@
   </html>
 
 </template>
+
+<script>
+import "src/skins/Graphite.vue"
+//require("src/skins/Graphite.vue")
+</script>
+
 <style>
+
+/* Custom style start */
+
+
+/* Custom style end */
+
 @media(max-width:767px) {}
 
 @media(min-width:768px) {
@@ -87,4 +99,9 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+#right-content {
+  color: #4c4f53;
+}
+
 </style>
