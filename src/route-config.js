@@ -2,14 +2,17 @@ export function configRouter (router) {
   // normal routes
   router.map({
     // basic example
-    '/about': {
-      component: require('./components/About.vue')
+    '/': {
+      component: require('./components/News.vue')
     },
     '/services': {
       component: require('./components/Services.vue')
     },
-    '/': {
-      component: require('./components/News.vue')
+    '/help': {
+      component: require('./components/Help.vue')
+    },
+    '/about': {
+      component: require('./components/About.vue')
     },
     // not found handler
     '*': {
