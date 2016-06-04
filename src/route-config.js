@@ -8,6 +8,9 @@ export function configRouter (router) {
     '/services': {
       component: require('./components/Services.vue')
     },
+    '/payments': {
+      component: require('./components/Payments.vue')
+    },
     '/help': {
       component: require('./components/Help.vue')
     },

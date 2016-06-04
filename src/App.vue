@@ -40,7 +40,7 @@
                                   <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-fw fa-bars"></i> Usługi </a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-money"></i> Płatności</a>
+                                  <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-fw fa-money"></i> Płatności</a>
                               </li>
                               <li class="paginator-list-item">
                                   <a href="#" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
