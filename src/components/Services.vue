@@ -1,5 +1,5 @@
 <template>
-  <h2 class="text-big">Usługi</h2>
+  <h2 class="text-huge">Usługi</h2>
   <table class="table table-responsive table-break-medium">
       <tbody>
           <tr class="text-small">
