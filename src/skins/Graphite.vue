@@ -37,8 +37,6 @@ body {
 }
 
 .paginator-list-item .paginator-list-link {
-    background-color: #494746 !important; 
-    border: 1px solid #6a6a6a !important; 
-    border-radius: 0px !important; 
+    background-color: transparent;
 }
 </style>

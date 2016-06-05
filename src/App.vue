@@ -20,7 +20,7 @@
       <main>
           <div class="row">
               <div class="">
-                  <div id="left-menu" class="col-xs-12 background-dark">
+                  <div id="left-menu" class="background-dark">
                       <div class="containerz">
                           <h1 class="text-big text-center">LVL UP</h1>
                           <p class="text-center">
@@ -91,7 +91,6 @@ import "src/skins/Graphite.vue"
 @media(min-width:768px) {
     #left-menu {
         height: 100vh;
-        padding-left: 30px;
         width: 250px;
         float: left;
     }
@@ -106,9 +105,20 @@ import "src/skins/Graphite.vue"
 
 @media(min-width:1200px) {}
 
-#left-menu .paginator-list li {
-  width:100%;
-  margin-bottom: .2em;
+#left-menu .paginator-list-item {
+  width: 100%;
+  margin: 0;
+  border-radius: 0px; 
+}
+
+#left-menu .paginator-list-link {
+  border: 0px;
+  padding-left: 30px;
+  background: transparent;
+}
+
+#left-menu .paginator-list-link:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #left-menu .paginator-list-item i {
