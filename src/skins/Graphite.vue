@@ -2,6 +2,7 @@
 /* Tables */
 .table th {
     background-color: #4c4f53 !important;
+    color: white !important;
 }
 
 .table {
