@@ -35,7 +35,7 @@
 
 #left-menu .paginator-list-link {
   border: 0px;
-  padding-left: 30px;
+  padding-left: 15px;
   background: transparent;
 }
 
@@ -55,6 +55,12 @@
 label.label {
   color: black !important;
   font-weight: bold;
+}
+
+#logo {
+  max-width: 210px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 </style>
