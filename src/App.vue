@@ -24,6 +24,8 @@
                       <div class="containerz">
                           <h1 class="text-big text-center">LVL UP</h1>
                           <p class="text-center">
+                            <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />
+                            <br>
                             Zalogowany jako:
                             SystemZ
                             <br>
