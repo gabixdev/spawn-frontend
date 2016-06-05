@@ -24,6 +24,8 @@
                       <div class="containerz">
                           <h1 class="text-big text-center">LVL UP</h1>
                           <p class="text-center">
+                            <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />
+                            <br>
                             Zalogowany jako:
                             SystemZ
                             <br>
@@ -32,22 +34,22 @@
                           </p>
                           <ul class="paginator-list">
                               <li class="paginator-list-item">
-                                  <a v-link="'/'" class="paginator-list-link"><i class="fa fa-fw fa-newspaper-o"></i> Nowości </a>
+                                  <a v-link="'/'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-newspaper-o"></i> Nowości </a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a v-link="'order'" class="paginator-list-link"><i class="fa fa-fw fa-shopping-cart"></i> Zamów </a>
+                                  <a v-link="'order'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-shopping-cart"></i> Zamów </a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-fw fa-bars"></i> Usługi </a>
+                                  <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-2x fa-fw fa-bars"></i> Usługi </a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-fw fa-money"></i> Płatności</a>
+                                  <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-money"></i> Płatności</a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a v-link="'access'" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
+                                  <a v-link="'access'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-lock"></i> Dostęp</a>
                               </li>
                               <li class="paginator-list-item">
-                                  <a v-link="'help'" class="paginator-list-link"><i class="fa fa-fw fa-life-ring"></i> Pomoc</a>
+                                  <a v-link="'help'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-life-ring"></i> Pomoc</a>
                               </li>
                           </ul>
                       </div>
@@ -67,42 +69,7 @@
 </template>
 
 <script>
+import "src/styles/Modern.vue"
 import "src/skins/Graphite.vue"
 //require("src/skins/Graphite.vue")
 </script>
-
-<style>
-
-/* Custom style start */
-
-
-/* Custom style end */
-
-@media(max-width:767px) {}
-
-@media(min-width:768px) {
-    #left-menu {
-        height: 100vh;
-        padding-left: 30px;
-    }
-}
-
-@media(min-width:992px) {}
-
-@media(min-width:1200px) {}
-
-#left-menu .paginator-list li {
-  width:100%;
-  margin-bottom: .2em;
-}
-
-#left-menu .paginator-list-item i {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#right-content {
-  color: #4c4f53;
-}
-
-</style>
