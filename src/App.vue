@@ -130,4 +130,9 @@ import "src/skins/Graphite.vue"
   color: #4c4f53;
 }
 
+label.label {
+  color: black !important;
+  font-weight: bold;
+}
+
 </style>
