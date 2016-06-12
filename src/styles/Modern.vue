@@ -11,6 +11,10 @@
 
   @media(min-width:1200px) {}
 
+  /*#logo {
+    width: 50%;
+  }*/
+
   #left-menu {
     padding-right: 0px!important;
   }
