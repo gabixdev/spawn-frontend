@@ -1,45 +1,66 @@
 <style>
-  @media(max-width:767px) {}
 
-  @media(min-width:768px) {
+@media(max-width:767px) {
     #left-menu {
-      height: 100vh;
+        width: 100%;
     }
-  }
+    
+    #right-content {
+        width: 100%;
+    }
+}
 
-  @media(min-width:992px) {}
+@media(min-width:768px) {
+    #left-menu {
+        height: 100vh;
+        width: 250px;
+        float: left;
+    }
+    
+    #right-content {
+        width: calc(100% - 250px);
+        float: left;
+    }
+}
 
-  @media(min-width:1200px) {}
+@media(min-width:992px) {}
 
-  #left-menu {
-    padding-right: 0px!important;
-  }
+@media(min-width:1200px) {}
 
-  #left-menu .containerz .paginator-list li:first-child a {
-    border-width: 1px 0px 1px 0px!important;
-  }
+#left-menu .paginator-list-item {
+  width: 100%;
+  margin: 0;
+  border-radius: 0px; 
+}
 
-  #left-menu .containerz .paginator-list li a {
-    border-style: solid!important;
-    border-width: 0px 0px 1px 0px!important;
-  }
+#left-menu .paginator-list-link {
+  border: 0px;
+  padding-left: 15px;
+  background: transparent;
+}
 
-  #left-menu .containerz .paginator-list li a i {
-    vertical-align: middle;
-    margin-right:5px;
-  }
+#left-menu .paginator-list-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
 
-  #left-menu .paginator-list li {
-    width: 100%;
-    margin-bottom: 0px;
-  }
+#left-menu .paginator-list-item i {
+  margin-left: 0;
+  margin-right: 0;
+}
 
-  #left-menu .paginator-list-item i {
-    margin-left: 0;
-    margin-right: 0;
-  }
+#right-content {
+  color: #4c4f53;
+}
 
-  #right-content {
-    color: #4c4f53;
-  }
+label.label {
+  color: black !important;
+  font-weight: bold;
+}
+
+#logo {
+  max-width: 210px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
 </style>
