@@ -18,37 +18,47 @@
   <body>
     <div style="margin-bottom:0px" class="message-bar background-info"><p>Uwaga, jest to tylko projekt wyglądu panelu klienta lvlup.pro 3.0, nie jest jeszcze funkcjonalny. Zapraszam do dyskusji na <a style="color:white" href="https://forum.lvlup.pro/t/projekt-nowego-panelu-klienta-v3-0/541" target="blank"><strong>forum</strong></a></p></div>
       <main>
-          <div id="left-menu" class="background-dark">
-              <p class="text-center">
-                <img id="logo" src="/static/logo.png" /><br>
-                <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" /><br>
-                Zalogowany jako: SystemZ <br>
-                Stan konta: 13,37 PLN
-              </p>
-              <ul class="paginator-list">
-                  <li class="paginator-list-item">
-                      <a v-link="'/'" class="paginator-list-link"><i class="fa fa-fw fa-newspaper-o"></i> Nowości </a>
-                  </li>
-                  <li class="paginator-list-item">
-                      <a v-link="'order'" class="paginator-list-link"><i class="fa fa-fw fa-shopping-cart"></i> Zamów </a>
-                  </li>
-                  <li class="paginator-list-item">
-                      <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-fw fa-bars"></i> Usługi </a>
-                  </li>
-                  <li class="paginator-list-item">
-                      <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-fw fa-money"></i> Płatności</a>
-                  </li>
-                  <li class="paginator-list-item">
-                      <a v-link="'access'" class="paginator-list-link"><i class="fa fa-fw fa-lock"></i> Dostęp</a>
-                  </li>
-                  <li class="paginator-list-item">
-                      <a v-link="'help'" class="paginator-list-link"><i class="fa fa-fw fa-life-ring"></i> Pomoc</a>
-                  </li>
-              </ul>
-          </div>
-          <div id="right-content" class="col-xs-12">
-              <div class="container">
-                  <router-view></router-view>
+          <div class="row">
+              <div class="">
+                  <div id="left-menu" class="col-xs-12 col-sm-2 background-dark">
+                      <div class="containerz">
+                          <h1 class="text-big text-center">LVL UP</h1>
+                          <p class="text-center">
+                            <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />
+                            <br>
+                            Zalogowany jako:
+                            SystemZ
+                            <br>
+                            Stan konta: 13,37 PLN
+
+                          </p>
+                          <ul class="paginator-list">
+                              <li class="paginator-list-item">
+                                  <a v-link="'/'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-newspaper-o"></i> Nowości </a>
+                              </li>
+                              <li class="paginator-list-item">
+                                  <a v-link="'order'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-shopping-cart"></i> Zamów </a>
+                              </li>
+                              <li class="paginator-list-item">
+                                  <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-2x fa-fw fa-bars"></i> Usługi </a>
+                              </li>
+                              <li class="paginator-list-item">
+                                  <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-money"></i> Płatności</a>
+                              </li>
+                              <li class="paginator-list-item">
+                                  <a v-link="'access'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-lock"></i> Dostęp</a>
+                              </li>
+                              <li class="paginator-list-item">
+                                  <a v-link="'help'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-life-ring"></i> Pomoc</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div id="right-content" class="col-xs-12 col-sm-10">
+                      <div class="container">
+                          <router-view></router-view>
+                      </div>
+                  </div>
               </div>
           </div>
       </main>
@@ -61,4 +71,5 @@
 <script>
 import "src/styles/Modern.vue"
 import "src/skins/Graphite.vue"
+//require("src/skins/Graphite.vue")
 </script>
