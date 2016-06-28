@@ -52,11 +52,6 @@
   color: #4c4f53;
 }
 
-label.label {
-  color: black !important;
-  font-weight: bold;
-}
-
 #logo {
   max-width: 210px;
   padding-top: 15px;

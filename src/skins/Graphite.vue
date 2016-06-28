@@ -40,4 +40,10 @@ body {
 .paginator-list-item .paginator-list-link {
     background-color: transparent;
 }
+
+label.label {
+  color: black !important;
+  font-weight: bold;
+}
+
 </style>
