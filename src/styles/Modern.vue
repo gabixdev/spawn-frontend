@@ -1,11 +1,26 @@
 <style>
-  @media(max-width:767px) {}
+  @media(max-width:767px) {
+    #left-menu {
+	  width: 100%;
+    }
+	
+	#right-content {
+	  width: 100%;
+	}
+  }
 
   @media(min-width:768px) {
     #left-menu {
       height: 100vh;
+      width: 250px;
+      float: left;
     }
-  }
+    
+    #right-content {
+      width: calc(100% - 250px);
+      float: left;
+    }
+}
 
   @media(min-width:992px) {}
 
@@ -33,6 +48,12 @@
     margin-right:5px;
   }
 
+  #logo {
+    max-width: 210px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  
   #left-menu .paginator-list li {
     width: 100%;
     margin-bottom: 0px;

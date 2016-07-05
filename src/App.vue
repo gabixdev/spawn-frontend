@@ -25,23 +25,11 @@
         <div class="">
           <div id="left-menu" class="col-xs-12 col-sm-2 background-dark">
             <div class="containerz">
-
-              <div class="row">
-                <div class="col-xs-4 col-xs-offset-4 col-md-8 col-md-offset-2">
-                  <br />
-                  <img id="logo" class="" src="/static/img/lvlup.svg" />
-                  <p class="align-center" style="position:relative;bottom:3px">
-                    Panel klienta
-                  </p>
-                </div>
-
-              </div>
-
               <p class="text-center">
+			    <img id="logo" class="" src="/static/img/lvlup.svg" />
                 <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />
                 <br> Zalogowany jako: SystemZ
                 <br> Stan konta: 13,37 PLN
-
               </p>
               <ul class="paginator-list">
                 <li class="paginator-list-item">
