@@ -3,16 +3,16 @@
   <html lang="en">
 
   <head>
-    <title>lvlup.pro</title>
+    <title>lvldown.noob</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="shortcut icon" href="ico.ico">
     <!-- Sierra library CSS stylesheets -->
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/sierra.min.css">
-    <!-- DEMO Font -->
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato:400,700,300' type='text/css'>
+    <!-- Lato Font -->
+    <link rel="stylesheet" href='/static/css/lato.css' type='text/css'>
     <!-- Font awesome icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -21,15 +21,21 @@
       <button class="button button-green block-mobile" v-on:click="infoBar=0">Ok, rozumiem. Schowaj ten pasek</button>
     </div>
     <main>
+	  <div class="container">
       <div class="row">
-        <div class="">
-          <div id="left-menu" class="col-xs-12 col-sm-2 background-dark">
+        <div class="main">
+		  <div id="topbar">
+			<img id="logo" class="" src="/static/img/lvlup.svg" />
+		  </div>
+          <div id="left-menu" class="col-xs-12 col-sm-2 background-light">
             <div class="containerz">
               <p class="text-center">
-			    <img id="logo" class="" src="/static/img/lvlup.svg" />
-                <img class="rounded" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />
-                <br> Zalogowany jako: SystemZ
-                <br> Stan konta: 13,37 PLN
+			    
+				<div class="avatarcon">
+					<!--<img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" />-->
+					<img src="/static/img/ava.jpg"/> Witaj, gabixdev.
+				</div>
+                Stan konta: 6,66 PLN
               </p>
               <ul class="paginator-list">
                 <li class="paginator-list-item">
@@ -39,7 +45,7 @@
                   <a v-link="'order'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-shopping-cart"></i> Zamów </a>
                 </li>
                 <li class="paginator-list-item">
-                  <a v-link="'services'" class="paginator-list-link active"><i class="fa fa-2x fa-fw fa-bars"></i> Usługi </a>
+                  <a v-link="'services'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-bars"></i> Usługi </a>
                 </li>
                 <li class="paginator-list-item">
                   <a v-link="'payments'" class="paginator-list-link"><i class="fa fa-2x fa-fw fa-money"></i> Płatności</a>
@@ -60,7 +66,10 @@
           </div>
         </div>
       </div>
+	  </div>
     </main>
+	<script src="static/js/jquery-3.1.0.min.js"></script>
+	<script src="static/js/panel.js"></script>
   </body>
 
   </html>

@@ -15,9 +15,18 @@
 
 	/* Forms */
 	.select, .select:active, .select:focus, .textarea, .input { 
-		background-color: #3a3633 !important;
+		background-color: #2c3e50 !important;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 1px;
+		text-overflow: '';
 	}
-
+	
+	select::-ms-expand {
+		display: none;
+	}
+	
+	
 	.textarea{ 
 		color: white !important;
 	}
@@ -33,21 +42,37 @@
 	}
 
 	.background-dark {
-		background-color: #3a3633 !important;
+		background-color: #2c3e50 !important;
+	}
+	
+	.background-light {
+		background-color: #ecf0f1 !important;
 	}
 
 	.paginator-list-item .paginator-list-link {
-		background: #494746 !important; 
-		border: 1px solid #6a6a6a !important; 
 		border-radius:0px !important;
 	}
 	
+	.paginator-list-link.v-link-active {
+		border-left: 8px solid #2ecc71 !important;
+		background-color: #27ae60 !important;
+	}
+	
+	.paginator-list-link.v-link-active:hover {
+		border-left: 8px solid #2ecc71 !important;
+		background-color: #2ecc71 !important;
+	}
+	
 	.paginator-list-link:hover {
-    background: rgba(255, 255, 255, 0.15) !important;
-  }
+		background: rgba(255, 255, 255, 0.15) !important;
+	}
 
 	label.label {
 		color: black !important;
 		font-weight: bold;
+	}
+	
+	.containerz {
+		background-color: #2c3e50;
 	}
 </style>

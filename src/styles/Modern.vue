@@ -7,6 +7,21 @@
 	#right-content {
 	  width: 100%;
 	}
+	
+	#logo {
+		width: 50%;
+	}
+	
+	#topbar {
+		background: #2c3e50 !important;
+		height: 54px !important;
+	}
+	
+	#topbar #logo {
+		margin: auto !important;
+		padding-top: 0px !important;
+		display: block;
+	}
   }
 
   @media(min-width:768px) {
@@ -30,7 +45,19 @@
     width: 50%;
   }*/
 
+  #topbar {
+    background: #2c3e50;
+	height: 64px;
+  }
+  
+  #topbar #logo {
+    /* transform: translateY(-15px) translateX(5px); */
+	margin-top: -16px;
+	margin-left: 7px;
+  }
+  
   #left-menu {
+    padding-left: 0px!important;
     padding-right: 0px!important;
   }
 
@@ -39,8 +66,8 @@
   }
 
   #left-menu .containerz .paginator-list li a {
-    border-style: solid!important;
-    border-width: 0px 0px 1px 0px!important;
+    /*border-style: solid!important;
+    border-width: 0px 0px 1px 0px!important;*/
   }
 
   #left-menu .containerz .paginator-list li a i {
@@ -66,5 +93,7 @@
 
   #right-content {
     color: #4c4f53;
+  }
+  .main {
   }
 </style>
